@@ -1,0 +1,32 @@
+
+		Design of EnhancedIO
+=============================================================
+Note: This is my personal study of enhanceIO. So I am creating documents
+as per my study and is not verified by EnhanceIO team.
+
+Please feel free to contact me, in case of any doubts.
+
+--------------------------------------------------------------
+
+
+Cache Creation:
+===============
+
+The management of EnhanceIO is done through python script, CLI/eio_cli.py
+
+and communication between python script and driver is done through IOCTL EIO_IOC_CREATE
+
+
+
+Code workflow:
+==============
+
+eio_cli : run_cmd()
+		|->cache_rec()
+			create()
+				IOCTL - EIO_IOC_CREATE
+
+eio_conf.c	eio_cache_create()
+			
+
+
