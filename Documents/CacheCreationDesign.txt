@@ -27,6 +27,7 @@ eio_cli : run_cmd()
 				IOCTL - EIO_IOC_CREATE
 
 eio_conf.c	eio_cache_create()
-			
+			- allocates cache_c structure. 
+			- 	
 
 

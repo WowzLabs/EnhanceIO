@@ -15,7 +15,20 @@ Core Strutures:
 
 description : Per cache structure used as cache context.
 - Have source(HDD) and cache(SSD) both information.
-- 
+	- Size , block, cache associativity.
+- List of all worker queues which acts on cache.
+- State management of cache.
+
+
+
+
+
+List of Operations.
+1. Module intialization.
+2. Cache Creation		- Refer CacheCreationDesign.txt
+
+
+
  
 
 
