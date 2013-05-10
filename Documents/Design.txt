@@ -1,0 +1,22 @@
+		Design of EnhancedIO
+=============================================================
+Note: This is my personal study of enhancedIO. So I am creating documents
+as per my study and is not verified by EnhancedIo team.
+
+Please feel free to contact me, in case of any doubts.
+
+--------------------------------------------------------------
+
+
+Core Strutures:
+===============
+
+1. struct cache_c : eio.h
+
+description : Per cache structure used as cache context.
+- Have source(HDD) and cache(SSD) both information.
+- 
+ 
+
+
+
